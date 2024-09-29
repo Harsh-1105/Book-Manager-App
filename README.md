@@ -13,8 +13,8 @@ The Book Manager App is designed to facilitate the issuance and return of books,
 ### Collections
 1. **Users**
    - **userId**: Unique identifier for the user
-   - **name**: Name of the user
-   - **email**: User's email address
+   - **user_name**: Name of the user
+   - **user_email**: User's email address
 
 2. **Books**
    - **bookId**: Unique identifier for the book
@@ -28,7 +28,6 @@ The Book Manager App is designed to facilitate the issuance and return of books,
    - **user_id**: Reference to the user who issued the book
    - **issueDate**: Date when the book was issued
    - **returnDate**: Date when the book was returned
-   - **totalRent**: Total rental fee calculated for the transaction
 
 ## Getting Started
 
